@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Mental Health Initiative</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #4caf50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #4caf50;
+        }
+        .countdown {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .btn {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            padding: 10px;
+            background: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Global Mental Health Initiative</h1>
+        <h2>7-Days Mental Health Webinar & Healing Camp</h2>
+        <p>Transform your life through Smile Mudra, Smile Meditation, and Ki Energy!</p>
+    </header>
+    <div class="container">
+        <h3>What Awaits You?</h3>
+        <ul>
+            <li>4 Days of Insightful Lectures</li>
+            <li>3 Personalized Healing Sessions</li>
+            <li>Led by Dr. Pankaj Jain, Founder of Origin Smile Foundation</li>
+        </ul>
+        <h3>Common Mental Health Issues:</h3>
+        <ul>
+            <li>Withdrawing from others</li>
+            <li>Avoiding activities</li>
+            <li>Sleeping or eating too much or too little</li>
+            <li>Feeling hopeless or having low energy</li>
+            <li>Substance use or persistent troubling thoughts</li>
+        </ul>
+        <h3>Addressing the Roots:</h3>
+        <ul>
+            <li>Genes and family history</li>
+            <li>Stress, abuse, or trauma</li>
+            <li>Chemical imbalances in the brain</li>
+            <li>Traumatic brain injuries</li>
+        </ul>
+        <h3>Key Dates:</h3>
+        <ul>
+            <li>Lectures: 1st, 2nd, 4th, and 8th February, 2025 (6am - 8am)</li>
+            <li>Personalized Healing: 2nd to 7th February (Online/Offline)</li>
+        </ul>
+        <h3>Program Fees:</h3>
+        <ul>
+            <li>India: ₹801 (Early Bird) | ₹2991 (Regular)</li>
+            <li>International: $75</li>
+        </ul>
+        <p class="countdown" id="countdown">Countdown: Loading...</p>
+        <a href="https://wa.me/8319465753" class="btn">Reserve Your Spot Now</a>
+    </div>
+    <footer>
+        <p>Organized by Origin Smile Foundation (OSF)</p>
+        <p>Contact: WhatsApp - 8319465753</p>
+    </footer>
+    <script>
+        // Countdown Timer Script
+        const targetDate = new Date("2025-02-01T00:00:00").getTime();
+        const countdownElement = document.getElementById('countdown');
+        
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+            
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            countdownElement.innerText = `Countdown: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+            
+            if (distance < 0) {
+                clearInterval(timer);
+                countdownElement.innerText = "The webinar has started!";
+            }
+        }
+        
+        const timer = setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
