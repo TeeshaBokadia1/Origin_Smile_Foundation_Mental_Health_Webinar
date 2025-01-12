@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Mental Health Webinar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #e96443, #904e95);
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+        .countdown {
+            font-size: 1.5rem;
+            margin-top: 10px;
+            color: #ff0000;
+        }
+        .cta {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            margin: 20px;
+        }
+        .cta h2 {
+            color: #000;
+        }
+        .cta .fees {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .cta .fees .strike {
+            text-decoration: line-through;
+            color: #ff0000;
+        }
+        .cta button {
+            background: #ffd700;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .speaker {
+            text-align: center;
+            padding: 20px;
+            background: #f4e8f0;
+        }
+        .speaker img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #e96443;
+        }
+        .speaker p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        .section {
+            padding: 20px;
+            background: #fff;
+            margin: 10px 0;
+        }
+        .section h2 {
+            color: #904e95;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Global Mental Health Initiative</h1>
+    <p>7-Day Webinar & Healing Camp (Feb 1 - Feb 8, 2025)</p>
+    <div class="countdown">Countdown: 20 Days Left!</div>
+</header>
+
+<div class="cta">
+    <h2>Transform Your Life Today!</h2>
+    <p class="fees"><span class="strike">₹8000</span> ₹2991 (India) | $75 (International)</p>
+    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfhqNSj_rahbJwRS3Y6rtp43ydhzeXWnyU0buTVycuIZ9vnZw/viewform?usp=dialog'">Register Now</button>
+</div>
+
+<div class="speaker">
+    <img src="/mnt/data/Smile.jpeg" alt="Dr. Pankaj Jain">
+    <p>Dr. Pankaj Jain, Founder of Origin Smile Foundation, leads this transformational journey of healing.</p>
+</div>
+
+<div class="section">
+    <h2>What Awaits You?</h2>
+    <p>4 Days of Insightful Lectures</p>
+    <p>3 Personalized Healing Sessions</p>
+</div>
+
+<div class="section">
+    <h2>Mental Health Challenges</h2>
+    <img src="/mnt/data/mental_health-preview.png" alt="Mental Health">
+    <ul>
+        <li>Withdrawing from others</li>
+        <li>Avoiding activities</li>
+        <li>Feeling hopeless</li>
+        <li>Persistent negative thoughts</li>
+    </ul>
+</div>
+
+<div class="footer">
+    <p>Organized by <strong>Origin Smile Foundation</strong></p>
+    <p>Contact us via WhatsApp: <a href="https://wa.me/8319465753">8319465753</a></p>
+</div>
+
+</body>
+</html>
